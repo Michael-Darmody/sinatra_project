@@ -1,5 +1,7 @@
 
-<hi>My name is <%=["Amigo", "Oscar", "Viking"].sample %></hi>
+<% if @name %>
+<hi>My name is <%= @name %></hi>
+<% end %>
 <div style='border: 3px dashed red'>
-     <img src='http://bit.ly/1eze8aE'>
-   </div>
+<img src='http://bit.ly/1eze8aE'>
+</div>
